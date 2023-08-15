@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Asap', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+
+background-color:
+
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+  
+  
+ 
+    background-color: black;
+}
+.nav{
+    height: 140px;
+    width: 100%;
+    background-color:;
+display: flex;
+align-items: center;
+padding-left:  12px;
+padding-right: 12px;
+padding-top: 0;
+padding-bottom: 0;
+justify-content: space-between;
+
+}
+#nav-p2{
+    display: flex;
+    background-color:;
+    align-items: center;
+    width: 60%;
+    justify-content: space-evenly;
+
+}
+.nav h1{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav i{
+    font-size: 30px;
+    margin-right: 10px;
+    
+    
+   
+}
+.nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight:450 ;
+}
+.nav img{ height: 90px;
+    width: auto;
+}
+#line {
+    width:75px;
+  height: 3px;  
+  background-color: red;
+
+}
+.content{height:calc(100% - 140px);
+    width: 100%;
+    background-color: ;
+     display: flex;
+     justify-content: space-between;
+position: relative;
+
+}
+.left{
+    width: 36%;
+    height: 100%;
+    background-color:black;
+    padding: 130px 60px;
+
+}
+.center{
+    width: 26%;
+    height: 100%;
+    background-color:(238, 224, 224);
+    padding-top: 20px;
+}
+.right{    width: 36%;
+    height: 100%;
+    background-color:black;
+padding: 200px 100px;
+color:; 
+}
+.left h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 650;
+    margin-bottom:50px ;
+}
+.left h1 span{color: red ;
+    font-weight: 200;
+
+
+}
+.left p{
+    font-size: 17px;
+    width: 70%;  
+      margin-bottom:50px ;
+      line-height: 24px;
+}
+.left button{
+    background-color:red ;
+    padding:20px 40px ;
+    border-radius:50px ;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    height: 40px;
+    width: 190px;
+
+}
+.left button i{margin-right: 20px;
+
+}
+.center-bg{
+    background-color:;
+    height: 100%;
+    width: 95%;
+ border-top-left-radius: 1000px ;
+ border-top-left-radius: 1000px ;
+ border-top-right-radius: 1000px ;
+background-image: url(https://w0.peakpx.com/wallpaper/581/450/HD-wallpaper-coca-cola-red-logo-red-brickwall-coca-cola-logo-brands-coca-cola-neon-logo-coca-cola.jpg);
+background-size: 350%;
+background-position:40% 50% ;
+filter: blur(2px);
+}
+.content img{
+
+
+height: 99%;
+position: absolute;
+
+left: 48%;
+bottom: 1%;
+
+transform: translate(-50%,0);
+
+
+}
+.right-elems{
+    background-color:;
+    width: 300px;
+}
+.elem1{
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.5;
+    border-bottom: 1px solid white;
+  
+}
+.elem1 h1{font-size: 24px;
+    font-weight: 600;
+  
+    
+}
+.elem1 i{
+    font-size: 50;
+    padding-right: 10px;
+
+}
+.elem2{height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid white;
+opacity: 0.6;}
+    
+.elem2 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom:15px ;
+    padding-top: 15px;
+
+}
+.elem2 p{
+    font-size: 12px;
+    width: 80%;
+}
+
+
+    
+
+
+h2{
+	position: relative;
+	font-size: 1.1em;
+	letter-spacing: 1.6px;
+    
+	color: #9f1010;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+	line-height: 0.70em;
+	outline: none;
+	animation: animate 3s linear infinite;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+		color: #dd3a3a;
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px #f85757,
+		            0 0 20px #f85757,
+		            0 0 40px #f85757,
+		            0 0 80px #f85757,
+		            0 0 160px #f85757;
+
+	}
+}
+.footer{
+    height: 40%;
+    width: 100%;
+    background-color: #9f1010;
+    display: flex;
+    align-items: center;
+}
+.f1{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.f2{
+    height: 100%;
+    width: auto;
+}
